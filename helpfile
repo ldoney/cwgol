@@ -1,0 +1,5 @@
+CLI GAME OF LIFE!
+
+Arguments:
+    * -p [num] -> Probability for cell to spawn
+    * -s [num] -> Seed (default is time(0))
