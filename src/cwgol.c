@@ -147,7 +147,7 @@ void initialize_board(enum CONDITION cells[max_x][max_y],
     for (j = 0; j < max_y; j++) {
 
 	  /* Randomize based on seed */
-      if ((rand() % 100) < odds_alive) {
+      if ((rand() % 100) <= odds_alive) {
         cells[i][j] = DEAD;
       } else {
         cells[i][j] == ALIVE;
